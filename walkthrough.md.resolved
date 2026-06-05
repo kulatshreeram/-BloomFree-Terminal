@@ -1,0 +1,56 @@
+# BloomFree Terminal — Build Walkthrough
+
+A fully functional Bloomberg-style financial dashboard built with pure HTML, CSS, and Chart.js — no backend, no subscription, 100% free.
+
+## What Was Built
+
+Three files in `C:\Users\Shree\Downloads\bloomberg\`:
+
+| File | Purpose |
+|---|---|
+| `index.html` | Full multi-panel dashboard layout with 5 views |
+| `style.css` | Bloomberg dark theme — amber/green/red palette, JetBrains Mono font |
+| `app.js` | Live price simulation engine, Chart.js charts, all panel data |
+
+## Features Verified ✅
+
+### Dashboard (F1)
+- **Live scrolling ticker** at the top with real-time-style price updates
+- **8 Market Indices** strip — S&P 500, NASDAQ, DOW, VIX, BTC, Gold, Crude Oil, USD Index
+- **Watchlist** — 12 stocks (AAPL, MSFT, NVDA, GOOGL, AMZN, META, TSLA, JPM, V, JNJ, WMT, BAC) with live price simulation every 2 seconds, sparklines
+- **Live Price Chart** — green/red line chart with Open/High/Low/Prev stats bar, 1D/1W/1M/3M timeframes
+- **Top Movers** — Gainers & Losers ranked panels
+- **Options Chain** — Calls & Puts table with Strike, Bid, Ask, IV, OI
+- **Economic Calendar** — HIGH/MEDIUM/LOW impact events
+- **News Feed** — BULLISH/BEARISH tagged headlines
+
+### Charts View (F2)
+- Full-screen expanded chart for deeper analysis
+
+### Portfolio (F3)
+- Holdings table with P&L, Market Value, Weight
+- Doughnut allocation chart
+- Summary stats: Total Value, Day P&L, Total P&L, Beta, Sharpe
+
+### Crypto (F4)
+- Full crypto market table (BTC, ETH, SOL, BNB, XRP, DOGE, ADA, AVAX)
+- Fear & Greed Index gauge (72 — GREED)
+- Market Dominance bar chart
+
+### FX (F5)
+- 12 currency pairs (EUR/USD, GBP/USD, USD/JPY, USD/INR, etc.)
+- Live rate simulation with direction bars
+
+## Screenshot
+
+![BloomFree Terminal Dashboard](file:///C:/Users/Shree/.gemini/antigravity/brain/6d70f4ff-79ff-408c-b837-d2bab5b65a58/bloomfree_terminal_dashboard_1772714051324.png)
+
+## Recording
+
+![Terminal Build Session](file:///C:/Users/Shree/.gemini/antigravity/brain/6d70f4ff-79ff-408c-b837-d2bab5b65a58/bloomberg_chart_fixed_1772714000148.webp)
+
+## How to Run
+
+Just double-click `index.html` — **no server needed, no install, no API keys**.
+
+> Data is simulated for educational purposes. Prices update every 2 seconds.
